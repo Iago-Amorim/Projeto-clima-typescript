@@ -50,6 +50,7 @@ const Home = () => {
             <Search loadClima={ loadClima }/>
             {clima && <City {...clima} />}
             {error && <Error />}
+            <h5>Criado por Iago Amorim</h5>
         </div>
     )
 }
